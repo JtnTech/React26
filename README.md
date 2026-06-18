@@ -14,7 +14,8 @@ If both commands show versions, Node.js and npm are installed.
 ## 2. Create a React Project
 
 ```bash
-npm create vite@latest reactjune
+npm create vite@latest  ## /without folder name , later it will ask for folder name.
+npm create vite@latest reactjune ## /thats why we written folder name in single line command , 'reactjune' is a folder name. 
 ```
 
 Select:
