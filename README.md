@@ -15,6 +15,7 @@ If both commands show versions, Node.js and npm are installed.
 
 ```bash
 npm create vite@latest  ## /without folder name , later it will ask for folder name.
+OR
 npm create vite@latest reactjune ## /thats why we written folder name in single line command , 'reactjune' is a folder name. 
 ```
 
