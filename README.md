@@ -30,6 +30,7 @@ Variant: JavaScript
 
 ## 3. Move Into Project Folder
 
+
 ```bash
 cd reactjune
 ```
@@ -59,6 +60,35 @@ or
 ```bash
 npm i
 ```
+
+# VS Code Command
+
+## `code -r /project`
+
+Opens the `/project` folder in the current Visual Studio Code window.
+
+### Syntax
+
+```bash
+code -r /project
+```
+
+### Explanation
+
+* `code` → Launches Visual Studio Code from the terminal.
+* `-r` → Reuses the existing VS Code window.
+* `/project` → Path to the project folder you want to open.
+
+### Example
+
+```bash
+code -r /project
+```
+
+### Result
+
+The `/project` directory opens in the currently active VS Code window instead of creating a new one.
+
 
 ### What does it do?
 
